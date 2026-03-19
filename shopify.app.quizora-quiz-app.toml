@@ -2,7 +2,7 @@
 
 client_id = "fbc9373c64a40b88fc9ea9dc74391e28"
 name = "quizora-quiz-app\r"
-application_url = "https://quizora-admin.vercel.app"
+application_url = "https://quizora-shopify-app-tv3l.vercel.app"
 embedded = true
 
 [build]
@@ -11,12 +11,11 @@ automatically_update_urls_on_dev = true
 [webhooks]
 api_version = "2026-04"
 
-[access_scopes]
-# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://example.com/api/auth",
-  "https://quizora-admin.vercel.app/"
+  "https://quizora-shopify-app-tv3l.vercel.app/auth/callback",
+  "https://quizora-shopify-app-tv3l.vercel.app/auth/shopify/callback",
+  "https://quizora-shopify-app-tv3l.vercel.app/api/auth"
 ]
