@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "fbc9373c64a40b88fc9ea9dc74391e28"
-name = "quizora-quiz-app\r"
+name = "quizora-quiz-app"
 application_url = "https://quizora-shopify-app-tv3l.vercel.app"
 embedded = true
 
