@@ -11,6 +11,7 @@ automatically_update_urls_on_dev = true
 [webhooks]
 api_version = "2026-04"
 
+[access_scopes]
 scopes = "write_products,read_products"
 
 [auth]
